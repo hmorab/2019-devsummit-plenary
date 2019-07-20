@@ -25,7 +25,7 @@
 
   <div id="layerPanel" class="esri-widget application-panel" style="width: auto;">
     <fieldset>
-      <legend>Add GeoJSONLayer</legend>
+      <legend>Agregar GeoJSONLayer</legend>
       <div class="js-code">
         <div id="addGeoJSONLayerButton" class="run-button esri-widget esri-widget--button esri-icon-play" role="button"></div>
         <pre><code class="javascript">const url = &quot;https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson&quot;;
@@ -49,7 +49,7 @@ const layer = new GeoJSONLayer({
 
   <div id="elevationPanel"  class="esri-widget application-panel">
     <fieldset>
-      <legend>Elevation</legend>
+      <legend>Elevación</legend>
       <div class="js-code">
         <div id="applyElevationInfoButton" class="run-button esri-widget esri-widget--button esri-icon-play" role="button"></div>
         <pre><code class="javascript">layer.elevationInfo = {
@@ -62,7 +62,7 @@ const layer = new GeoJSONLayer({
       </div>
     </fieldset>
     <fieldset>
-      <legend>Ground Opacity</legend>
+      <legend>Opacidad del suelo</legend>
       <div class="js-code">
         <pre><code id="groundOpacityCode" class="javascript">scene.ground.opacity = 1;</code></pre>
       </div>
